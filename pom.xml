@@ -32,6 +32,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>springloaded</artifactId>
+			<version>1.2.8.BUILD-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
@@ -94,4 +95,13 @@
 		</plugins>
 	</build>
 
+	<repositories>
+		<repository>
+			<id>spring-io-snapshots</id>
+			<url>https://repo.spring.io/libs-snapshot-local/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 </project>
